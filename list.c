@@ -79,7 +79,7 @@ void main()
    do
    {
       printf("\n List operation");
-      printf("\n 1.create \n 2.Insert \n 3.Delect \n 4.Display \n 5.search");
+      printf("\n 1.create \n 2.Insert \n 3.Delect \n 4.Display \n 5.search \n 6.Exit");
 
 
       printf("Enter your choice:");
