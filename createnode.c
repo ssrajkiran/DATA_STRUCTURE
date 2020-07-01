@@ -9,19 +9,7 @@ struct node *head = NULL;
 struct node *current = NULL;
 
 
-void printList() {
 
-   struct node *p = head;
-
-   printf("\n[head] =>");
-
-   while(p != NULL) {        
-      printf(" %d =>",p->data);
-      p = p->next;
-   }
-
-   printf(" [null]\n");
-}
 
 
 void insert(int data) {
@@ -46,6 +34,6 @@ int main() {
    insert(40);
    insert(56); 
 
-   printList();
+   
    return 0;
 }
